@@ -1,0 +1,27 @@
+{
+    "name": "ghopunk/php-encryption",
+    "description": "encrypte n decrypte string",
+    "keywords": [
+        "ghopunk",
+        "encrypte"
+    ],
+    "homepage": "https://github.com/ghopunk/php-encryption",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ghopunk",
+            "email": "support@bloggerpemalas.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ghopunk\\Encryption\\": "src"
+        }
+    },
+    "prefer-stable": true
+}
