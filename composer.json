@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ghopunk\\Encryption\\": "src"
+            "ghopunk\\Helpers\\": "src"
         }
     },
     "prefer-stable": true
