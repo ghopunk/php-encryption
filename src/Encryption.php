@@ -1,4 +1,5 @@
 <?php
+
 namespace ghopunk\Helpers;
 
 class Encryption {
@@ -70,5 +71,3 @@ class Encryption {
 		return trim($decrypttext);
 	}
 }
-
-?>
